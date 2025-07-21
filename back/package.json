@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@auth/express": "^0.6.1",
+    "@prisma/client": "^5.20.0",
+    "@types/csurf": "^1.11.5",
+    "csurf": "^1.11.0",
+    "express": "^4.19.2",
+    "prisma": "^5.20.0"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "bun src/index.tsx"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@auth/prisma-adapter": "^2.5.3",
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "cors": "^2.8.5",
+    "typescript": "^5.6.2"
+  }
+}
